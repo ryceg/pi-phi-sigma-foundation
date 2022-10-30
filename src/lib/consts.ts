@@ -1,0 +1,5 @@
+export const OFFICIAL_EMAIL = 'piphisigmafoundation@gmail.com'
+export const OFFICIAL_INSTAGRAM = 'https://instagram.com/piphisigma'
+export const OFFICIAL_FACEBOOK = 'https://www.facebook.com/PiPhiSig/'
+export const OFFICIAL_MERCH = 'https://www.bonfire.com/pi-phi-sigma-official-merch/'
+export const STRIPE_SIGNUP = 'https://buy.stripe.com/fZeg0Bgqi6Gw82AfYY'
