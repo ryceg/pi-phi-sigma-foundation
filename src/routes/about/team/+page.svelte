@@ -22,12 +22,12 @@
 
 	for (let i = 0; i < 5; i++) {
 		teamMembers.push({
-			name: faker.name.findName(),
-			position: faker.name.jobTitle(),
-			funFact: faker.lorem.sentence(),
+			name: faker.faker.name.fullName(),
+			position: faker.faker.name.jobTitle(),
+			funFact: faker.faker.lorem.sentence(),
 			photo: {
-				src: faker.image.avatar(),
-				alt: faker.lorem.sentence()
+				src: faker.faker.image.avatar(),
+				alt: faker.faker.lorem.sentence()
 			}
 		});
 	}
