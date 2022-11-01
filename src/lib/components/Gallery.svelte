@@ -1,5 +1,5 @@
 <script lang="ts">
-	import faker from '@faker-js/faker';
+	import { faker } from '@faker-js/faker';
 	export let title: string;
 	export let description: string;
 	export let images: {

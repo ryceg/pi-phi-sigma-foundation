@@ -2,7 +2,7 @@
 	export let title: string;
 	export let button: string;
 	export let action;
-	import faker from '@faker-js/faker';
+	import { faker } from '@faker-js/faker';
 </script>
 
 <section class="text-gray-600 body-font">

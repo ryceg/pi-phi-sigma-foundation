@@ -1,5 +1,5 @@
 <script lang="ts">
-	import faker from '@faker-js/faker';
+	import { faker } from '@faker-js/faker';
 	export let teamMembers: {
 		name: string;
 		position: string;
@@ -22,12 +22,12 @@
 
 	for (let i = 0; i < 5; i++) {
 		teamMembers.push({
-			name: faker.faker.name.fullName(),
-			position: faker.faker.name.jobTitle(),
-			funFact: faker.faker.lorem.sentence(),
+			name: faker.name.fullName(),
+			position: faker.name.jobTitle(),
+			funFact: faker.lorem.sentence(),
 			photo: {
-				src: faker.faker.image.avatar(),
-				alt: faker.faker.lorem.sentence()
+				src: faker.image.avatar(),
+				alt: faker.lorem.sentence()
 			}
 		});
 	}
