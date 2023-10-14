@@ -54,6 +54,6 @@
 		"caniuse-lite": "^1.0.30001418",
 		"react": "17",
 		"react-dom": "17",
-		"webpack": "^5.74.0"
+		"webpack": "^5.76.0"
 	}
 }
